@@ -5,7 +5,8 @@
         font-size: 24px;
         color: $color-gray;
         width: 831px;
-        padding: 120px 0 60px; 
+        padding: 120px 0 60px;
+        line-height: 1.23; 
     }
     &__list {
         display: flex;
@@ -33,6 +34,7 @@
     &__item-text {
         width: 232px;
         text-align: center;
+        line-height: 1.23; 
     }
     &__item:nth-child(-n+2) &__item-text {
         width: 210px;
@@ -80,10 +82,11 @@
             padding: 27px 0 26px;
         }
         &-paragraph {
-            padding: 20px 0 0;
-            font-weight: 500;
+            padding: 23px 0 0;
+            font-weight: 400;
             font-size: 17px;
             color: $color-lightgray;
+            letter-spacing: 0.0055em;
         }
     }
     &__list {
