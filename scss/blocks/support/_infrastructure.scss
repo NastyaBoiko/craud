@@ -2,10 +2,13 @@
     color: $color-white;
     padding: 120px 0 144px;
     position: relative;
+    &__container {
+        width: 1310px;
+    }
     &__head {
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 21px;
     }
     &__title {
         font-weight: 600;
@@ -18,7 +21,7 @@
         width: 657px;
     }
     &__cards {
-        padding: 60px 0;
+        padding: 63px 0 60px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 10px;
@@ -88,6 +91,7 @@
         font-size: 16px;
     }
     &:nth-child(5) &-text {
+        padding: 88px 0 0;
         text-decoration: underline;
         text-decoration-skip-ink: none;
     }
@@ -100,7 +104,7 @@
         letter-spacing: -0.03em;
         text-align: center;
         color: $color-lightblue;
-        padding: 67px 0 20px;
+        padding: 67px 0 24px;
     }
     &__paragraph {
         font-weight: 500;
@@ -113,18 +117,23 @@
 
 .solution {
     padding: 60px 0;
+    margin: 0 0 0 2px;
     &__title {
         font-weight: 600;
         font-size: 24px;
         letter-spacing: -0.03em;
     }
     &__paragraph {
-        padding: 20px 0;
+        padding: 21px 0;
         font-size: 20px;
         opacity: 0.5;
     }
     &__form {
-        padding: 60px 0 0;
+        display: flex;
+        width: 1310px;
+        gap: 10px;
+        justify-content: start;
+        padding: 40px 0 0;
         .form__item {
             border: 1px solid #fff8f8;
             border-radius: 99px;
@@ -140,7 +149,7 @@
             color: $color-white;
         }
         .form__btn {
-            border: 1px solid #fff8f8;
+            // border: 1px solid #fff8f8;
             border-radius: 90px;
             padding: 16px 32px;
             width: 320px;
@@ -165,11 +174,11 @@
             position: absolute;
             z-index: -5;
         }
-        .form__policy {
-            padding: 10px 0 0;
-            font-size: 14px;
-            opacity: 0.5;
-        }
+    }
+    .form__policy {
+        padding: 10px 0 0;
+        font-size: 14px;
+        opacity: 0.5;
     }
     
 }

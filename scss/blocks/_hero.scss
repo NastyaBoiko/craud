@@ -15,17 +15,25 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 120%;
-        padding: 20px 0 30px;
+        padding: 21px 0 31px;
         width: 652px;
+        letter-spacing: -0.001em;
     }
     &__btn {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-radius: 100px;
-        padding: 24px 48px;
-        width: 309px;
-        height: 68px;
         background-color: $color-white;
         color: $color-gray;
+    }
+    &__btn-audit {
+        width: 277px;
+        height: 72px;
+    }
+    &__btn-support {
+        width: 309px;
+        height: 68px;
     }
     &::after {
         content: "";

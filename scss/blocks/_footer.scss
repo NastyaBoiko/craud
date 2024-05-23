@@ -1,7 +1,7 @@
 .footer {
     color: $color-white;
     &__line {
-        padding: 56px 0;
+        padding: 56px 0 76px;
         border: 1px solid rgba(255, 255, 255, 0.2);
         border-width: 1px 0;
     }
@@ -9,6 +9,7 @@
         display: flex;
         align-items: end;
         justify-content: space-between;
+        width: 1312px;
     }
     .nav__list {
         font-size: 24px;
@@ -16,21 +17,25 @@
         width: 227px;
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 21px;
+        padding: 0 0 5px 0;
     }
     &__logo {
-        padding: 0 136px 1px 158px;
+        padding: 0 136px 0 159px;
     }
     &__contacts {
         display: flex;
         flex-direction: column;
-        gap: 20px;
-        width: 250px;
+        gap: 21px;
+        width: 251px;
+        padding: 0 2px 5px 0;
         a {
+            display: inline-block;
             font-weight: 500;
             font-size: 24px;
             letter-spacing: -0.03em;
             text-decoration: underline;
+            text-underline-offset: 2px;
             text-decoration-skip-ink: none;
         }
     }
@@ -38,7 +43,7 @@
         font-family: var(--font-family);
         font-weight: 400;
         font-size: 15px;
-        letter-spacing: -0.03em;
+        letter-spacing: -0.028em;
     }
     &__rigths {
         padding: 17px 0 16px;
@@ -47,10 +52,11 @@
         align-items: center;
         font-weight: 400;
         font-size: 18px;
-        letter-spacing: -0.03em;
+        letter-spacing: -0.031em;
         opacity: 0.7;
     }
     &__policy {
         text-align: right;
+        margin: 0 3px 0 0;
     }
 }
