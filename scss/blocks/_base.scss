@@ -6,6 +6,7 @@
 $font-family: "Inter", sans-serif;
 $color-white: #ffffff;
 $color-gray: #00151c;
+$color-lightgray: #6c7a7f;
 
 body {
     font-family: $font-family;
@@ -17,4 +18,11 @@ body {
 .container {
     margin: 0 auto;
     width: 1310px;
+}
+
+.color-gradient {
+    background: linear-gradient(214deg, #00b6f1 0%, #4551a3 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
