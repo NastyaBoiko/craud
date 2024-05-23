@@ -1,0 +1,17 @@
+.header {
+    
+    &__container {
+        height: 66px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__nav-list {
+        display: flex;
+        gap: 50px;
+    }
+    &__nav-item {
+        line-height: 110%;
+        color: $color-gray;
+    }
+}
