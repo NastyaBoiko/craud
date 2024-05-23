@@ -4,12 +4,14 @@
 
 // base
 $font-family: "Inter", sans-serif;
+$color-white: #ffffff;
 $color-gray: #00151c;
 
 body {
     font-family: $font-family;
     font-weight: 500;
     font-size: 18px;
+    background: no-repeat radial-gradient(93.85% 93.54% at 50% 50%, rgb(0, 182, 241) 14.12000060081482%, rgb(69, 81, 163) 83.52000117301941%);
 }
 
 .container {
