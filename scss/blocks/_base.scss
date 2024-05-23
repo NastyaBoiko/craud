@@ -1,0 +1,18 @@
+
+// Импортируем шрифты
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+// base
+$font-family: "Inter", sans-serif;
+$color-gray: #00151c;
+
+body {
+    font-family: $font-family;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1310px;
+}
