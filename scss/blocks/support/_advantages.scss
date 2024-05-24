@@ -52,7 +52,6 @@
         line-height: 110%;
         color: $color-white;
     }
-    
 }
 
 .info {
@@ -67,7 +66,9 @@
         gap: 60px;
     }
     &__img {
-        border-radius: 16px;
+        img {
+            border-radius: 16px;
+        }
         width: 650px;
         height: 451px;
     }

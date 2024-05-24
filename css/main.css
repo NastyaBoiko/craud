@@ -566,9 +566,11 @@ body {
   gap: 60px;
 }
 .info__img {
-  border-radius: 16px;
   width: 650px;
   height: 451px;
+}
+.info__img img {
+  border-radius: 16px;
 }
 .info__text {
   font-weight: 600;
@@ -895,6 +897,108 @@ body {
 }
 .complex__accordion .accordion__icon_close {
   transform: rotate(45deg);
+}
+
+.content {
+  padding: 100px 0;
+  color: #ffffff;
+  background: url("/img/bg_ellipses_content.svg") center center;
+}
+.content__structure {
+  display: flex;
+  justify-content: space-between;
+}
+.content__structure .structure__heading {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.03em;
+}
+.content__structure .structure__paragraph {
+  font-weight: 500;
+  font-size: 20px;
+  padding: 20px 0;
+}
+.content__structure .structure__list {
+  font-weight: 500;
+  font-size: 20px;
+  display: block;
+  list-style: disc outside none;
+  padding: 30px 0 0 26px;
+}
+.content__structure .structure__list .list__item {
+  display: list-item;
+  margin: 14px 0;
+  letter-spacing: 0.005em;
+}
+.content__structure .structure__list .list__item-svg {
+  margin: -10px 0 10px;
+}
+.content__structure .structure__list .list__item .list__svg {
+  display: inline-flex;
+  position: relative;
+  top: 8px;
+  cursor: pointer;
+}
+.content__structure .structure__img {
+  width: 650px;
+  height: 451px;
+}
+.content__structure .structure__img img {
+  border-radius: 16px;
+}
+.content__plan {
+  padding: 150px 0 0;
+}
+.content__plan .plan__title {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+.content__plan .plan__paragraph {
+  padding: 20px 0;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+}
+.content__plan .plan__circles {
+  padding: 33px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 14.4px;
+}
+.content__plan .plan__circles .circles__item {
+  border-radius: 361px;
+  padding: 86px 0 0;
+  width: 250px;
+  height: 250px;
+  -webkit-backdrop-filter: blur(24.0366973877px);
+          backdrop-filter: blur(24.0366973877px);
+  background: rgba(239, 238, 247, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.content__plan .plan__circles .circles__item-number {
+  border: 1.2px solid #ffffff;
+  border-radius: 160px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+.content__plan .plan__circles .circles__item-text {
+  font-weight: 500;
+  font-size: 15px;
+  width: 216.33px;
+  text-align: center;
 }
 
 .footer {
