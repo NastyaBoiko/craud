@@ -793,6 +793,110 @@ body {
   opacity: 0.5;
 }
 
+.complex {
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+.complex__banner {
+  border-radius: 8px;
+  padding: 60px;
+  height: 356px;
+  width: 1310px;
+  background-color: #f2fbfe;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.complex__banner .banner__icon {
+  border-radius: 105px;
+  padding: 12px;
+  width: 48px;
+  height: 48px;
+  background: radial-gradient(93.85% 93.54% at 50% 50%, rgb(0, 182, 241) 14.1200006008%, rgb(69, 81, 163) 83.520001173%);
+}
+.complex__banner .banner__title {
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #00151c;
+}
+.complex__banner .banner__paragraph {
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #6c7a7f;
+  width: 698px;
+}
+.complex__banner::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: url("/img/ellipses_complex.svg");
+}
+.complex__specialization {
+  padding: 83px 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.complex__specialization .specialization__text {
+  padding: 105px 0 59px 36px;
+}
+.complex__specialization .specialization__heading {
+  font-weight: 500;
+  font-size: 24px;
+  color: #00151c;
+}
+.complex__specialization .specialization__paragraph {
+  padding: 19px 0 0;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  color: #6c7a7f;
+}
+.complex__accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.complex__accordion .accordion__item {
+  border-radius: 8px;
+  padding: 24px 40px;
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  background: #f2fbfe;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.complex__accordion .accordion__btn {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  color: #00151c;
+}
+.complex__accordion .accordion__paragraph {
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: -0.03em;
+  color: #6c7a7f;
+  padding: 20px 0 0;
+}
+.complex__accordion .accordion__panel {
+  width: 1160px;
+}
+.complex__accordion .accordion__icon_close {
+  transform: rotate(45deg);
+}
+
 .footer {
   color: #ffffff;
 }
