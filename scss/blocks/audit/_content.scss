@@ -5,6 +5,7 @@
     &__structure {
         display: flex;
         justify-content: space-between;
+        position: relative;
         .structure {
             &__heading {
                 font-weight: 600;

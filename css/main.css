@@ -650,7 +650,6 @@ body {
   padding: 10px 0 0 26px;
 }
 .info__list-item {
-  display: list-item;
   margin: 10px 0;
   letter-spacing: 0.005em;
 }
@@ -911,6 +910,7 @@ body {
 .content__structure {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 .content__structure .structure__heading {
   font-weight: 600;
@@ -1082,6 +1082,33 @@ body {
 .feedback__form .form__btn {
   background: linear-gradient(215deg, #00b6f1 0%, #4551a3 64.18%);
   color: #ffffff;
+}
+
+.popup {
+  position: absolute;
+  top: -152px;
+  left: 243px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 40px;
+  width: 482px;
+  height: 424px;
+  box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+}
+.popup__list {
+  font-weight: 400;
+  font-size: 15px;
+  color: #6c7a7f;
+  display: block;
+  list-style: disc outside none;
+  padding: 0 0 0 26px;
+}
+.popup__list .list__item {
+  letter-spacing: 0.005em;
+}
+.popup__list .list__item:not(:first-child) {
+  margin: 10px 0;
 }
 
 .footer {
