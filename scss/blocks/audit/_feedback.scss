@@ -1,0 +1,72 @@
+.feedback {
+    background-color: $color-white;
+    padding: 100px 0;
+    &__info {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text {
+        padding: 57px 0 56px;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 24px;
+        letter-spacing: -0.03em;
+        color: $color-gray;
+    }
+    &__paragraph {
+        padding: 20px 0;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 140%;
+        color: $color-lightgray;
+        width: 579px;
+    }
+    &__also {
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: -0.03em;
+        color: $color-gray;
+        padding: 30px 0 35px;
+    }
+    &__links {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__link {
+        font-weight: 500;
+        font-size: 17px;
+        letter-spacing: -0.03em;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: $color-lightblue;
+    }
+    &__img {
+        width: 650px;
+        height: 451px;
+        img {
+            border-radius: 16px;
+        }
+    }
+    &__form {
+        padding: 100px 0 0;
+        .form {
+            padding: 80px 0 0;
+            &__item {
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                font-weight: 400;
+                color: #4f504f;
+                &::placeholder {
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #4f504f;
+                }
+            }
+            &__btn {
+                background: linear-gradient(215deg, #00b6f1 0%, #4551a3 64.18%);
+                color: $color-white;
+            }
+        }
+    }
+}
