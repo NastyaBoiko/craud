@@ -30,6 +30,7 @@
     &__btn-audit {
         width: 277px;
         height: 72px;
+        margin: 0 0 5px;
     }
     &__btn-support {
         width: 309px;
@@ -41,7 +42,7 @@
         width: 914px;
         height: 515px;
         position: absolute;
-        bottom: 12px;
+        bottom: 0;
         right: -15px;
         background: url("/img/bgnet.png") no-repeat center;
         background-size: contain;

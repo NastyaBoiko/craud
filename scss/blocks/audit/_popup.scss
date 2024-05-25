@@ -1,6 +1,6 @@
 .popup {
     position: absolute;
-    top: -152px;
+    top: -157px;
     left: 243px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 16px;
@@ -15,12 +15,12 @@
         color: $color-lightgray;
         display: block;
         list-style: disc outside none;
-        padding: 0 0 0 26px;
+        padding: 0 0 0 21px;
         .list__item {
-            letter-spacing: 0.005em;
+            letter-spacing: 0.002em;
         }
         .list__item:not(:first-child) {
-            margin: 10px 0;
+            margin: 10.7px 0;
         }
     }
 }
