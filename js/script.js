@@ -14,15 +14,17 @@ const accordionBtns = document.querySelectorAll('.accordion__btn');
 
 for (let i = 0; i < accordionBtns.length; i++) {
     accordionBtns[i].addEventListener("click", function() {
-        accordionBtns[i].classList.toggle("active");
+        let icon = this.parentElement.nextElementSibling;
         let panel = this.nextElementSibling;
-        console.log(panel);
+        this.classList.toggle("active");
+        icon.classList.toggle("accordion__icon_close");
         
         if (panel.style.maxHeight) {
             panel.style.maxHeight = null;
             panel.style.paddingBottom = null;
         } else {
-            panel.style.paddingBottom = "20px";
+            panel.style.marginTop = "-3px";
+            panel.style.paddingBottom = "24px";
             panel.style.maxHeight = panel.scrollHeight + "px";
         } 
     });

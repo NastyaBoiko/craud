@@ -112,9 +112,18 @@
                 overflow: hidden;
                 max-height: 0;
                 transition: max-height 0.2s ease-out;
+                -webkit-transition: max-height 0.2s ease-out;
+                -moz-transition: max-height 0.2s ease-out;
+                -o-transition: max-height 0.2s ease-out;
             }
             &__panel {
                 width: 1160px;
+            }
+            &__icon {
+                transition: 0.2s ease-out;
+                -webkit-transition: 0.2s ease-out;
+                -moz-transition: 0.2s ease-out;
+                -o-transition: 0.2s ease-out;
             }
             &__icon_close {
                 transform: rotate(45deg);
