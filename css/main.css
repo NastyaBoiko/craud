@@ -850,7 +850,7 @@ body {
   background: url("/img/ellipses_complex.svg");
 }
 .complex__specialization {
-  padding: 83px 0 92px;
+  padding: 83px 0 96px;
   display: flex;
   justify-content: space-between;
 }
@@ -877,7 +877,7 @@ body {
 }
 .complex__accordion .accordion__item {
   border-radius: 8px;
-  padding: 24px 42px 24px 40px;
+  padding: 0 42px 0 40px;
   -webkit-backdrop-filter: blur(12px);
           backdrop-filter: blur(12px);
   background: #f2fbfe;
@@ -888,16 +888,24 @@ body {
 .complex__accordion .accordion__btn {
   font-weight: 500;
   font-size: 20px;
+  height: 88px;
   letter-spacing: -0.03em;
   color: #00151c;
+  display: flex;
+  align-items: center;
+}
+.complex__accordion .accordion__btn.active {
+  height: 72px;
 }
 .complex__accordion .accordion__paragraph {
   font-weight: 500;
   font-size: 17px;
   letter-spacing: -0.03em;
   color: #6c7a7f;
-  padding: 20px 0 0;
   line-height: 1.22;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
 }
 .complex__accordion .accordion__panel {
   width: 1160px;
@@ -1045,7 +1053,7 @@ body {
   padding: 33px 0 36px;
 }
 .feedback__links {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   gap: 22px;
 }

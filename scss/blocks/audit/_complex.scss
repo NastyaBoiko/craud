@@ -51,7 +51,7 @@
     }
 
     &__specialization {
-        padding: 83px 0 92px;
+        padding: 83px 0 96px;
         display: flex;
         justify-content: space-between;
 
@@ -83,7 +83,7 @@
         .accordion {
             &__item {
                 border-radius: 8px;
-                padding: 24px 42px 24px 40px;
+                padding: 0 42px 0 40px;
                 backdrop-filter: blur(12px);
                 background: #f2fbfe;
                 display: flex;
@@ -93,16 +93,25 @@
             &__btn {
                 font-weight: 500;
                 font-size: 20px;
+                height: 88px;
                 letter-spacing: -0.03em;
                 color: $color-gray;
+                display: flex;
+                align-items: center;
+            }
+            &__btn.active {
+                height: 72px;
             }
             &__paragraph {
                 font-weight: 500;
                 font-size: 17px;
                 letter-spacing: -0.03em;
                 color: $color-lightgray;
-                padding: 20px 0 0;
+                // padding: 20px 0 0;
                 line-height: 1.22;
+                overflow: hidden;
+                max-height: 0;
+                transition: max-height 0.2s ease-out;
             }
             &__panel {
                 width: 1160px;
