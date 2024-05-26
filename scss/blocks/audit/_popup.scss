@@ -9,6 +9,8 @@
     height: 424px;
     box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.1);
     background: $color-white;
+    opacity: 0;
+    transition: 0.3s;
     &__list {
         font-weight: 400;
         font-size: 15px;
