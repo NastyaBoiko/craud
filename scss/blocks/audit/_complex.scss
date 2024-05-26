@@ -98,6 +98,7 @@
                 color: $color-gray;
                 display: flex;
                 align-items: center;
+                cursor: pointer;
             }
             &__btn.active {
                 height: 72px;
